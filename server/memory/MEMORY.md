@@ -35,4 +35,15 @@
 ## 7. Infrastructure Health
 - **CI/CD**: `athena-publisher.yml` renamed and active in the monorepo.
 - **Library**: `9-library` patched for relative pathing and production stability.
-- **GitHub**: Deployment target is the `athenasitesy` organization.
+- **GitHub**: Deployment target is the `athenasitesy` organization via SSH alias `github-athena`.
+
+## 8. Development Insights (Vite 8 & React 19)
+- **JSX Configuration**: Vite 8 with Oxc/Rolldown requires an explicit `jsconfig.json` with `"jsx": "react-jsx"` to avoid "Invalid key jsx" errors during transformation.
+- **Plugin Management**: `@vitejs/plugin-react-oxc` (v0.x) is the current high-performance standard for the V9.2 stack, though it is being merged back into the core React plugin.
+- **Base Paths**: GitHub Pages deployment requires `base: '/repo-name/'` in `vite.config.js` for project-site repositories.
+
+## 9. Site Lifecycle & Migration (Factorkraan)
+- **Standard**: Sites are developed in `~/kla/sites/` (Sandbox) and migrated to `~/0-IT/4-pj/x-v9/athena/sites/` (Factory).
+- **Automation**: Use the `athena-migrate` skill (`~/kla/.agents/skills/athena-migrate/`) for the full migration and subtree push process.
+- **Auth Switching**: Create organizational repositories (`athenasitesy`) by switching GH accounts: `gh auth switch -h github.com -u athenacmsfactory`.
+- **Archival**: Always "park" a version in the **Vault** (`x-v9/vault/`) using the modernized `push.sh` forklift script.
