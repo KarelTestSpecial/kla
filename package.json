@@ -1,0 +1,11 @@
+{
+  "name": "kdclaw",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "install:all": "pnpm install",
+    "clean": "pnpm store prune && rm -rf node_modules"
+  },
+  "packageManager": "pnpm@10.32.1"
+}

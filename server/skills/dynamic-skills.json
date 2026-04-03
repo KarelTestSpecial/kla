@@ -1,0 +1,127 @@
+[
+  {
+    "id": "zero_budget_outreach",
+    "name": "Zero-Budget Outreach Strategy",
+    "description": "Een strategie om potentiële klanten te bereiken zonder advertentiekosten, gebruikmakend van gratis AI tools en netwerkversterking.",
+    "tools": [
+      "ChatGPT (content creatie)",
+      "Canva (grafische content)",
+      "LinkedIn (netwerk opbouwen)",
+      "GitHub (project showcase)",
+      "Reddit en Stack Overflow (community engagement)"
+    ],
+    "metadata": {
+      "steps": [
+        "Identificeer doelgroep en specifieke Node.js behoeften",
+        "Creëer waardevolle content zoals blogs en tutorials",
+        "Gebruik AI tools voor content creatie en optimalisatie",
+        "Distributie via sociale media en online communities",
+        "Netwerk opbouwen door online engagement en samenwerking",
+        "Volg op met persoonlijke boodschappen naar leads",
+        "Bied gratis consultatie of mini-projecten aan",
+        "Verzamel testimonials en referenties",
+        "Verbeter strategie op basis van feedback en resultaten"
+      ],
+      "discovered_by": "arcee-ai/trinity-large-preview:free",
+      "discovered_at": "2026-03-29T12:59:35.732Z"
+    },
+    "createdAt": "2026-03-29T12:59:35.733Z",
+    "updatedAt": "2026-03-29T12:59:35.733Z"
+  },
+  {
+    "id": "athena_sales_partner",
+    "name": "Athena Sales Partner",
+    "description": "Expert in selling and pricing Athena CMS websites (Starter, Professional, Business).",
+    "tools": [
+      "proposal_generator",
+      "pricing_advisor",
+      "usp_writer"
+    ],
+    "metadata": {
+      "pricing_tiers": [
+        750,
+        1495,
+        2495
+      ],
+      "delivery_times": [
+        "24h",
+        "3 days",
+        "5 days"
+      ],
+      "target_sectors": [
+        "Horeca",
+        "Retail",
+        "IT",
+        "Legal",
+        "Beauty"
+      ]
+    },
+    "createdAt": "2026-03-29T13:27:04.590Z",
+    "updatedAt": "2026-03-29T13:27:04.590Z"
+  },
+  {
+    "id": "athena_factory_builder",
+    "name": "Athena Factory Builder (v9.0 Lego)",
+    "description": "Master of the v9.0 Lego Edition. Expert in Dot Protocol binding, Local-First workflows, and the Sandbox/Werkplaats architecture.",
+    "tools": [
+      "pnpm_lego",
+      "data_manager",
+      "dot_protocol_binder",
+      "sandbox_manager"
+    ],
+    "metadata": {
+      "version": "9.0",
+      "protocol": "Dot Protocol (data-dock-bind)",
+      "sandbox_path": "~/0-IT/3-DEV/y1/y/werkplaats/",
+      "symlink_path": "~/0-IT/3-DEV/y1/y/factory/sites/",
+      "fallback": "Local Seed Data (Offline-First)"
+    },
+    "createdAt": "2026-03-29T14:43:43.938Z",
+    "updatedAt": "2026-03-29T14:43:43.938Z"
+  },
+  {
+    "id": "athena_publisher_expert",
+    "name": "Athena Publisher (CI/CD)",
+    "description": "Expert in managing and monitoring the automated GitHub Actions deployment pipeline.",
+    "tools": [
+      "trigger_publish",
+      "check_workflow_status",
+      "pages_verifier"
+    ],
+    "metadata": {
+      "workflow_file": ".github/workflows/athena-publisher.yml",
+      "triggers": [
+        "push",
+        "workflow_dispatch",
+        "repository_dispatch"
+      ],
+      "target_orgs": [
+        "athena-cms-factory",
+        "athena-x-factory",
+        "athenasitesy"
+      ]
+    },
+    "createdAt": "2026-03-29T13:48:38.670Z",
+    "updatedAt": "2026-03-29T13:48:38.670Z"
+  },
+  {
+    "id": "knowledge_grounding",
+    "name": "Knowledge Grounding (Self-Refresh)",
+    "description": "Systematically refreshes KDClaws internal context by re-scanning local files, factory docs, and GitHub state.",
+    "tools": [
+      "refresh_context",
+      "verify_registry",
+      "doc_sync"
+    ],
+    "metadata": {
+      "critical_files": [
+        "MEMORY.md",
+        "AI-MANIFEST.md",
+        "SITES_REGISTRY.md"
+      ],
+      "refresh_interval": "Once per session or after major deployments"
+    },
+    "createdAt": "2026-03-29T14:45:37.568Z",
+    "updatedAt": "2026-03-29T14:45:37.568Z"
+  }
+]
